@@ -34,7 +34,7 @@ The benchmark is executed by calling `mlr3::benchmark` on the final design.
 The learner `xgboost`, `ranger`, and `gamboost` are already available using `mlr3learners` and `mlr3extralearner` while
 `compboost` and `interpret` is not. Therefore, the folder `src/mlr-bmr/learner-src/` contains the `mlr3` definition of these
 two learners `classifCompboost.R` and `classifInterpretML_reticulate.R`. The source of `compboost` is available on GitHub
-using the commig `ba044d3a6f6814080eb097acca2e59fd8bad9805` and can be install via `remotes`:
+using the commit `ba044d3a6f6814080eb097acca2e59fd8bad9805` and can be install via `remotes`:
 ```
 remotes::install_github("schalkdaniel/compboost", ref = "ba044d3a6f6814080eb097acca2e59fd8bad9805")
 ```
